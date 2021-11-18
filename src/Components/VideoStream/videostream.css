@@ -1,0 +1,171 @@
+
+.main-video-page{
+    height: 100vh;
+    /* background-color:rgb(41, 40, 40); */
+    background-image: url(./back-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* video screen */
+.video-screen{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    flex-direction: row;
+}
+.user{
+    height: 17vw;
+    width: 27vw;
+    margin: 30px;
+}
+
+/* bottom controls icons and other fixed */
+.controls{
+    width: 100vw;
+    height:70px;
+    position: fixed;
+    /* background-color:rgb(41, 40, 40); */
+    background-color: rgba(30, 143, 255, 0.651);
+    bottom: 0px;
+    left: 0px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.my-flex{
+    display: flex;
+    align-items: center;
+}
+.time-code{
+    justify-content: flex-start;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.user-chat{
+    justify-content: flex-end;
+}
+.time-code,.central-control-icons,.user-chat{
+    width:400px;
+    height: 50px;
+}
+.circle{
+    font-size: 20px;
+    margin: 8px;
+    background-color: rgb(87, 85, 85);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.user-chat{
+    margin-right: 30px;
+}
+.user-chat-icon{
+    font-size: 30px !important;
+    margin: 8px !important;
+    color: white !important;
+    cursor: pointer ;
+
+}
+.meet-end-btn{
+    height: 45px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 20px;
+    margin: 8px;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+/* chat body */
+.chat-body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(68, 67, 67);
+}
+.msg-body{
+    height: 50px;
+    width: 75%;
+    background-color: lightgrey;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    resize: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.send-msg{
+    position: absolute;
+    bottom: 37px;
+    left: 335px;
+    font-size: 27px;
+    cursor: pointer;
+    color: lightgrey;
+}
+.send-msg:hover{
+    color: dodgerblue;
+}
+
+/* meida query */
+@media (max-width:800px) {
+    .user{
+        margin: 15px;
+    }
+    .controls{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .time-code{
+        justify-content: center;
+    }
+    .user-chat{
+        justify-content: center;
+    }
+      
+}
+@media (max-width:650px) {
+    .first{
+        height:27vw ;
+        width: 45vw;
+    }
+    .video-screen{
+        width: 80%;
+    } 
+}
+@media (max-width:550px) {
+    .first{
+        height:45vw !important ;
+        width: 70vw !important;
+    } 
+    .video-screen{
+        width: 80%;
+    }
+}
+
+
+
+/* react changes */
+.add-item{
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+
+}
+
+/* card css */
+.c-size{
+    width: 410px !important;
+    height: 260px;
+    margin: 20px;
+}

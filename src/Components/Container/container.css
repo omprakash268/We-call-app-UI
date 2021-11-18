@@ -1,0 +1,139 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* sections */
+.sections{
+    height: auto;
+    width: 100vw;
+}
+
+/* left div */
+.left-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 45vw;
+    padding: 20px;
+}
+.wrap-meet{
+    height: 200px;
+    width: 100%;
+}
+.my-flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-meet-btn{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.644);
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    margin: 40px 20px 0px 20px;
+    font-size: 21px;
+    transition: 0.3s all;
+}
+.new-meet-btn:hover{
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+.code-join{
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.code-input{
+    height: 50px;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin:20px;
+    font-size: 21px;
+    box-sizing: border-box;
+    padding-left: 87px;
+}
+.keyboard-icon{
+    font-size: 38px !important;
+    position: relative;
+    bottom: 64px;
+    right: -35px;
+}
+.video-icon{
+    font-size: 38px !important;
+    position: relative;
+    bottom: 44px;
+    right: -35px;
+   
+}
+.join-btn{
+    height: 50px;
+    width: 100px;
+    background-color: #EADEB8;
+    border-radius: 3px;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.join-btn:hover{
+    background-color:#fae49c ;
+    color: blue;
+}
+.we-text{
+    height: 40px;
+    width: auto;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.vc-1{
+    height: 300px;
+}
+
+/* right div */
+.right-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 45vw;
+    padding: 20px;
+    background-color: rgba(95, 173, 236, 0.452);
+    border-radius: 10px;
+}
+.d-block,.carousel-inner{
+    height: 350px !important;
+    width: 550px !important;
+}
+
+
+@media (max-width:1291px) {
+    .sections{
+        height: auto;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    .left-div,.right-div{
+        width: 80%;
+    }
+    .vc-1{
+        height: 25vw;
+    }
+    .d-block,.carousel-inner{
+        height: 25vw !important;
+        width: 40vw !important;
+    }
+}

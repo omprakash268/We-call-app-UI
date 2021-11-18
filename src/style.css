@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(back-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.my-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

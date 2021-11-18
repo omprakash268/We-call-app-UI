@@ -1,0 +1,21 @@
+.header{
+    height: 100px;
+    background-color: black;
+    box-shadow: 0px 5px 5px white;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.my-h-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    height: 70px;
+    cursor: pointer;
+}
+.user-avatar{
+    cursor: pointer;
+}

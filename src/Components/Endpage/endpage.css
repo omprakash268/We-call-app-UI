@@ -1,0 +1,38 @@
+.end-main-div{
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(./back-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.my-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.return-home-btn{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(52, 197, 241);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.return-home-btn:hover{
+    color: black !important;
+}
+.feedback{
+    text-decoration: none;
+    color: rgb(214, 255, 30);
+    font-size: 18px;
+    font-weight: 500;
+}
+.feedback:hover{
+    color: yellow !important;
+}
+.logo-end-page{
+    height: 50px;
+}
